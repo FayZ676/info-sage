@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply rounded-md bg-emerald-500 px-4 py-2 text-white hover:bg-emerald-600 disabled:bg-emerald-300;
+  }
+  .side-menu-item {
+    @apply mx-2 mt-2 flex items-center gap-2 rounded-md p-2 hover:bg-gray-800;
+  }
+  .side-menu-chat-item {
+    @apply m-2 flex items-center gap-1 rounded-md p-1 hover:bg-gray-800;
+  }
+  .side-menu-namespace-item {
+    @apply m-1 rounded-md hover:bg-gray-800;
+  }
+}
